@@ -1,0 +1,54 @@
+.container {
+    margin: 0 auto;
+    width: 1100px;
+    background-color: rgb(243, 233, 233);
+}
+img {
+    float: left;
+    margin-left: -10px;
+}
+form {
+    margin-top: 70px;
+    margin-left: 800px;
+}
+img {
+    width: 750px;
+    height: 550px;
+}
+h1 {
+    color: rgba(36, 36, 35, 0.938);
+    background-color: rgb(236, 235, 245);
+    font-family: Arial bold , sans-serif;
+}
+body {
+    background-color:rgb(8, 1, 1);
+}
+.enviar {
+    background: green;
+    border: none;
+    color: rgb(250, 245, 245);
+
+    font-size: 1.4em;
+    text-transform: uppercase;
+    box-shadow: 0 1px 3px #777;
+
+    display:block;
+    padding: 0 3em 0.5em;
+    margin: 1em 0;
+}
+#titulo h1 {
+    text-shadow: 3px 3px 2px rgb(26, 38, 92);
+}
+#img {
+    background: no-repeat;
+}
+.enviar:hover {
+    box-shadow: 0 0 10px rgb(8, 0, 0);
+    transition: box-shadow 0.4s;
+    transform: scale (40px, -20px);
+}
+.enviar {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
